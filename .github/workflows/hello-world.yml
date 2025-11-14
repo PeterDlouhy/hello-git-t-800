@@ -15,5 +15,5 @@ jobs:
               uses: actions/checkou@v4.2.2
 
               - name: JavaScript ausführen
-              run: node hello-worls.js
+              run: node ./src/hello-worls.js
 
