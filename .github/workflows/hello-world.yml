@@ -1,0 +1,19 @@
+# Workflow config
+name: Hello Peter Worlflow is done
+descrption: Nur eine Demo
+
+# Events
+
+on: push
+
+# Jobs (tasks)
+jobs: 
+    say-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Src vom Projekt ziehen
+              uses: actions/checkou@v4.2.2
+
+              - name: JavaScript ausführen
+              run: node hello-worls.js
+
