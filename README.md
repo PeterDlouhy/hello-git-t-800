@@ -1,4 +1,4 @@
-# Peters Workshop preject
+# Peters Workshop project
 ## Intro
 My first **project** and *excercise*
 ## next step
